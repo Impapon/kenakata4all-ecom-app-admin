@@ -1,8 +1,8 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:ecom_admin_batch06/db/dbhelper.dart';
-import 'package:ecom_admin_batch06/models/order_constants_model.dart';
-import 'package:ecom_admin_batch06/utils/constants.dart';
 import 'package:flutter/material.dart';
+import 'package:simple_ecom_admin/db/dbhelper.dart';
+import 'package:simple_ecom_admin/models/order_constants_model.dart';
+import 'package:simple_ecom_admin/utils/constants.dart';
 
 import '../models/order_model.dart';
 

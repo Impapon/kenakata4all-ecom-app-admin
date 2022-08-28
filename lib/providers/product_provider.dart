@@ -1,12 +1,11 @@
 import 'dart:io';
-
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:ecom_admin_batch06/db/dbhelper.dart';
-import 'package:ecom_admin_batch06/models/category_model.dart';
-import 'package:ecom_admin_batch06/models/purchase_model.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
+import 'package:simple_ecom_admin/db/dbhelper.dart';
+import 'package:simple_ecom_admin/models/category_model.dart';
+import 'package:simple_ecom_admin/models/purchase_model.dart';
 
 import '../models/product_model.dart';
 

@@ -1,6 +1,6 @@
-import 'package:ecom_admin_batch06/providers/product_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:simple_ecom_admin/providers/product_provider.dart';
 
 class CategoryPage extends StatelessWidget {
   static const String routeName = '/category';

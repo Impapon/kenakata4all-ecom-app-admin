@@ -1,8 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:ecom_admin_batch06/models/category_model.dart';
-import 'package:ecom_admin_batch06/models/product_model.dart';
-import 'package:ecom_admin_batch06/models/purchase_model.dart';
-
+import 'package:simple_ecom_admin/models/category_model.dart';
+import 'package:simple_ecom_admin/models/product_model.dart';
+import 'package:simple_ecom_admin/models/purchase_model.dart';
 import '../models/order_constants_model.dart';
 
 class DbHelper {

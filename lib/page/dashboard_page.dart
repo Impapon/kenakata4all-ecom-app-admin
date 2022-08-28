@@ -1,12 +1,11 @@
-
-import 'package:ecom_admin_batch06/page/category_page.dart';
-import 'package:ecom_admin_batch06/page/order_page.dart';
-import 'package:ecom_admin_batch06/page/product_page.dart';
-import 'package:ecom_admin_batch06/page/settings_page.dart';
-import 'package:ecom_admin_batch06/page/user_page.dart';
-import 'package:ecom_admin_batch06/providers/order_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:simple_ecom_admin/page/category_page.dart';
+import 'package:simple_ecom_admin/page/order_page.dart';
+import 'package:simple_ecom_admin/page/product_page.dart';
+import 'package:simple_ecom_admin/page/settings_page.dart';
+import 'package:simple_ecom_admin/page/user_page.dart';
+import 'package:simple_ecom_admin/providers/order_provider.dart';
 import '../models/dashboard_item.dart';
 import '../providers/product_provider.dart';
 import '../widgets/dashboard_item_view.dart';

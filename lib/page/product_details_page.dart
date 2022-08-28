@@ -1,8 +1,8 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:ecom_admin_batch06/models/purchase_model.dart';
-import 'package:ecom_admin_batch06/utils/helper_functions.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:simple_ecom_admin/models/purchase_model.dart';
+import 'package:simple_ecom_admin/utils/helper_functions.dart';
 
 import '../models/date_model.dart';
 import '../models/product_model.dart';
@@ -165,7 +165,7 @@ class ProductDetailsPage extends StatelessWidget {
                             dateChangeNotifier.value = _purchaseDate;
                           },
                           child: Text('Select Purchase Date')),
-                      ValueListenableBuilder(
+                      ValueListenableBuilder<DateTime>(
                         valueListenable: dateChangeNotifier,
                         builder: (context, value, child) =>  Text(
                           getFormattedDateTime(value, 'dd/MM/yyyy'),

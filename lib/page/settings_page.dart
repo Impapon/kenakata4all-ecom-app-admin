@@ -1,10 +1,10 @@
-import 'package:ecom_admin_batch06/models/order_constants_model.dart';
-import 'package:ecom_admin_batch06/providers/order_provider.dart';
-import 'package:ecom_admin_batch06/utils/constants.dart';
-import 'package:ecom_admin_batch06/utils/helper_functions.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:provider/provider.dart';
+import 'package:simple_ecom_admin/models/order_constants_model.dart';
+import 'package:simple_ecom_admin/providers/order_provider.dart';
+import 'package:simple_ecom_admin/utils/constants.dart';
+import 'package:simple_ecom_admin/utils/helper_functions.dart';
 
 class SettingsPage extends StatefulWidget {
   static const String routeName = '/settings';

@@ -1,7 +1,8 @@
-import 'package:ecom_admin_batch06/page/new_product_page.dart';
-import 'package:ecom_admin_batch06/utils/constants.dart';
+
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:simple_ecom_admin/page/new_product_page.dart';
+import 'package:simple_ecom_admin/utils/constants.dart';
 
 import '../providers/product_provider.dart';
 import 'product_details_page.dart';
